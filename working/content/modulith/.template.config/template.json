@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "$comment": "See https://aka.ms/template-json-reference for complete configuration description. Complete TODOs below and remove the $comment properties. It is recommended to use the JSON editor that supports schema hints to get more information about defined JSON properties and their description.",
+  "author": "David Chaparro",
+  "classifications": [
+    "Web",
+    "Web API",
+    "API",
+    "Service",
+    "Modular",
+    "Monolith" ],
+  "name": "modulith",
+  "description": "A solution template for creating a Modular Monolithic Web API using FastEndpoints and MediatR",
+  "precedence": "0",
+  "identity": "Davidc.Modulith.1.0",
+  "shortName": "modulith",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "sourceName": "Modulith",
+  "defaultName": "Modulith",
+  "preferDefaultName": true,
+  "preferNameDirectory": true,
+  "symbols": {
+    "with-module": {
+      "$comment": "TODO: The symbols section defines variables and their values. For more details, see https://aka.ms/template-json-reference#symbols.",
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "FirstModule",
+      "fileRename": "NewModule",
+      "replaces": "NewModule",
+      "isEnabled": true,
+      "isRequired": false
+    }
+  },
+  "sources": [
+    {
+      "source": ".",
+      "target": "./"
+    }
+  ]
+}
